@@ -3,5 +3,8 @@
 export(classic_taxa)
 export(load_from_qiime)
 export(mean_sd)
+export(multi_statistic)
+export(plot_compositional)
+export(summary_stats)
 importFrom(data.table,":=")
 importFrom(magrittr,"%>%")

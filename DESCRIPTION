@@ -12,8 +12,11 @@ RoxygenNote: 7.2.3
 Imports: 
     data.table,
     dplyr,
+    ggplot2,
     magrittr,
     phyloseq,
-    qiime2R
+    qiime2R,
+    scales,
+    tibble
 URL: https://github.com/jeantonalli/microzero
 BugReports: https://github.com/jeantonalli/microzero/issues
