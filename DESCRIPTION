@@ -1,6 +1,6 @@
 Package: microzero
 Title: Workflow used in my lab
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Juan Manuel", "Vélez-Ixta", , "juanvelez96@otulook.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5713-0776"))
