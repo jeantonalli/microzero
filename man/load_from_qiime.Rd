@@ -2,8 +2,7 @@
 % Please edit documentation in R/load_from_qiime.R
 \name{load_from_qiime}
 \alias{load_from_qiime}
-\title{Loads qiime files into R
-depends on qiime2R}
+\title{Loads qiime files into R}
 \usage{
 load_from_qiime(
   dir = "qiime",
@@ -31,6 +30,5 @@ load_from_qiime(
 A phyloseq object
 }
 \description{
-Loads qiime files into R
 depends on qiime2R
 }

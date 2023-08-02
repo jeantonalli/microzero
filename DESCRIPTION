@@ -1,5 +1,5 @@
 Package: microzero
-Title: What the Package Does (One Line, Title Case)
+Title: Workflow used in my lab
 Version: 0.0.0.9000
 Authors@R: 
     person("Juan Manuel", "Vélez-Ixta", , "juanvelez96@otulook.com", role = c("aut", "cre"),
@@ -10,7 +10,10 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    data.table,
+    dplyr,
     magrittr,
+    phyloseq,
     qiime2R
 URL: https://github.com/jeantonalli/microzero
 BugReports: https://github.com/jeantonalli/microzero/issues

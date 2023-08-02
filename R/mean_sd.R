@@ -12,6 +12,6 @@
 mean_sd <- function(z) {
   rmean <- round(mean(z), digits = 2)
   rsd <- round(stats::sd(z), digits = 2)
-  both <- paste0(rmean, " ± ", rsd)
+  both <- paste0(rmean, " \u00b1 ", rsd)
 return(both)
 }
