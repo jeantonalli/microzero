@@ -12,3 +12,5 @@ RoxygenNote: 7.2.3
 Imports: 
     magrittr,
     qiime2R
+URL: https://github.com/jeantonalli/microzero
+BugReports: https://github.com/jeantonalli/microzero/issues
