@@ -1,1 +1,1 @@
-utils::globalVariables(c("data", "test", "group"))
+utils::globalVariables(c("data", "test", "group", "Genus", "padj", "log2FoldChange"))

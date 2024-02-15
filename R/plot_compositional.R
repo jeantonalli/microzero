@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr %>%
 plot_compositional <- function(df, taxrank, groupvar, Abundance = Abundance) {
   df <- dplyr::arrange(df, Abundance) %>%
     dplyr::mutate({{taxrank}} := factor( {{taxrank}}, unique({{taxrank}}) ))

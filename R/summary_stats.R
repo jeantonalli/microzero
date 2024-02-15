@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr %>%
 summary_stats <- function(df, group_var, physeq = data){
   summary_df <- df %>%
     cbind(group = phyloseq::sample_data(physeq)[[group_var]]) %>%

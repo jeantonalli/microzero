@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr %>%
 multi_statistic <- function(df, group_name, physeq = data, alpha = 0.05) {
   group_vector <- phyloseq::sample_data(physeq)[[group_name]]
   conditional_test <- function(z){
