@@ -16,7 +16,7 @@
 #' @importFrom magrittr "%>%"
 #' @importFrom data.table ":="
 classic_taxa <- function(physeq, taxrank, groupvar, perc_threshold = 1, Abundance = Abundance) {
-  df <- phyloseq::tax_glom(physeq = physeq, taxrank = deparse(substitute(taxrank)), NArm = T)  %>%
+  df <- phyloseq::tax_glom(physeq = physeq, taxrank = deparse(substitute(taxrank)), NArm = F)  %>%
     phyloseq::psmelt() %>%
     dplyr::group_by({{groupvar}} ,
              {{taxrank}} ) %>%
